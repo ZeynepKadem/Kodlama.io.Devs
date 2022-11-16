@@ -3,10 +3,12 @@ package Kodlama.io.Devs.Kodlama.io.Devs.business.concretes;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.stereotype.Service;
 import Kodlama.io.Devs.Kodlama.io.Devs.business.abstracts.LaunageService;
 import Kodlama.io.Devs.Kodlama.io.Devs.dataAccess.abstracts.LaunageRepository;
 import Kodlama.io.Devs.Kodlama.io.Devs.entities.concretes.Launage;
+
+@Service
 
 public class LaunageManager implements LaunageService{
 	LaunageRepository launageRepository;
