@@ -1,2 +1,2 @@
-# Kolama.io.Devs Project
+# Kodlama.io.Devs Project
  spring mimarisine giriş ve kavrama üzerine proje
